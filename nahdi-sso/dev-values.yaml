@@ -1,0 +1,6 @@
+appName: nahdi-sso-dev
+replicaCount: 2
+image: nginx:latest
+publicIngress:
+  annotations:
+    alb.ingress.kubernetes.io/group.name: nahdi-dev

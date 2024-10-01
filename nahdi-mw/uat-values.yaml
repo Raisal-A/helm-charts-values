@@ -1,0 +1,6 @@
+appName: nahdi-mw-uat
+replicaCount: 2
+image: nginx:latest
+publicIngress:
+  annotations:
+    alb.ingress.kubernetes.io/group.name: nahdi-uat

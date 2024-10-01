@@ -1,0 +1,6 @@
+appName: nahdi-mw-prod
+replicaCount: 3
+image: nginx:stable
+publicIngress:
+  annotations:
+    alb.ingress.kubernetes.io/group.name: nahdi-prod
